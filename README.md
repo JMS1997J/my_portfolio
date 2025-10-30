@@ -1,10 +1,7 @@
-## Descripción
+## Description
 
-Este es mi portafolio hecho en React y con el uso de HTML, CSS y Javascript.
+This is my portfolio made in React and using HTML, CSS and Javascript.
 
-## Autor - **José**
+## Author - **José**
 
 - [Linkedin](www.linkedin.com/in/josé-francisco-merino-santana-8288b2346)
-
-## Ver ejemplo en vivo
-- [enlace github pages]()
