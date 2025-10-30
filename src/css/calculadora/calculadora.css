@@ -1,0 +1,13 @@
+/*calculadora*/
+.contenedorCalculadora{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.botonCalculadora{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+}

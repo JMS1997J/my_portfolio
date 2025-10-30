@@ -1,0 +1,8 @@
+.contenedorSegmentos{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

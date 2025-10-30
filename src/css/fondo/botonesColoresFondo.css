@@ -1,0 +1,33 @@
+.contenedorBotonesColores{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.contenedorBotonesColores:hover button{
+  display: block;
+}
+
+.colores{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.colores .boton{
+  width: 100%;
+}
+
+.botonColores{
+  display: none;
+  width: 100%;
+}
+
+.botonColores:hover{
+  display: block;
+}

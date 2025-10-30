@@ -1,0 +1,19 @@
+.botonCalculadoraComponente{
+  width: 50px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: 1px gray solid;
+}
+
+.botonCalculadoraComponente:hover{
+  background-color: gray;
+}
+
+.botonCalculadoraComponente:active{
+  background-color: rgb(94, 94, 94);
+}
+
+.igual{
+  width: 200px;
+}

@@ -1,0 +1,84 @@
+.contenedorSegmento{
+  display: flex;
+  width: 80%;
+  min-height: 200px;
+  margin-bottom: 50px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.contenedorSegmento:hover{
+  /*display: flex;
+  width: 80%;
+  min-height: 200px;
+  margin-bottom: 50px;*/
+  background-color: rgb(50, 50, 50);
+  cursor: pointer;
+}
+
+.imagenSegmento{
+  height: 250px;
+  /*width: 211.59px;*/
+}
+
+.contenedorTexto{
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.contenedorTexto h1{
+  font-size: 40px;
+}
+
+.contenedorTexto div{
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+
+
+/*Parte ampliada*/
+.contenedorSegmentoAmpliado{
+  display: flex;
+  width: 90%;
+  min-height: 400px;
+  margin-bottom: 50px;
+  background-color: black;
+  cursor: pointer;
+  position: fixed;
+  top: 100px;
+  z-index: 1;
+}
+
+.contenedorSegmentoAmpliado .imagenSegmento{
+  height: 450px;
+  /*width: 211.59px;*/
+}
+
+.contenedorSegmentoAmpliado h1{
+  font-size: 80px;
+}
+
+.contenedorSegmentoAmpliado div{
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.fondoAmpliado{
+  display: block;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  min-height: 100vh;
+  background-color: rgb(15, 15, 15);
+  opacity: 0.9;
+  z-index: 1;
+}
+
+/*pequeña transicion para que el cambio no sea de golpe*/
+.contenedorSegmento,
+.contenedorSegmentoAmpliado {
+  transition: all 0.3s ease;
+}

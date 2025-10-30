@@ -1,0 +1,9 @@
+.PantallaCalculadora{
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content:end;
+  background-color: gray;
+  color: white;
+}

@@ -1,0 +1,23 @@
+.casillaTablero{
+  width: 157px;
+  height: 157px;
+  margin: 7px;
+  cursor: pointer;
+}
+
+.casillaTableroActivo{
+  width: 157px;
+  height: 157px;
+  margin: 7px;
+  cursor: pointer;
+  box-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+}
+
+.casillaTableroActivo {
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+/*.casillaTablero img{
+  width: 157px;
+  height: 157px;
+}*/
